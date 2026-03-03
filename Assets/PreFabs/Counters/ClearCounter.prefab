@@ -122,7 +122,8 @@ PrefabInstance:
       propertyPath: m_IsActive
       value: 1
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 3963051997784561285, guid: 68062c6d34e65864fbb9614eb3163b42, type: 3}
     m_RemovedGameObjects:
     - {fileID: 6195953978875309064, guid: 68062c6d34e65864fbb9614eb3163b42, type: 3}
     - {fileID: 6578569007076533719, guid: 68062c6d34e65864fbb9614eb3163b42, type: 3}
@@ -143,17 +144,6 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 7465211278694478066, guid: 68062c6d34e65864fbb9614eb3163b42, type: 3}
   m_PrefabInstance: {fileID: 7681475139813688873}
   m_PrefabAsset: {fileID: 0}
---- !u!114 &6657870811800473772 stripped
-MonoBehaviour:
-  m_CorrespondingSourceObject: {fileID: 3963051997784561285, guid: 68062c6d34e65864fbb9614eb3163b42, type: 3}
-  m_PrefabInstance: {fileID: 7681475139813688873}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6743030063427410934}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 3e1dabcf20b8a2640bfb093b0b957453, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::ContainerCounter
 --- !u!1 &6743030063427410934 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 3967137926361914847, guid: 68062c6d34e65864fbb9614eb3163b42, type: 3}
@@ -171,8 +161,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4837d00b964102142b83e2db6c48a2de, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::ClearCounter
-  kitchenObjectSO: {fileID: 11400000, guid: 7149638fe1710454a99574e6fcdee380, type: 2}
   counterTopPoint: {fileID: 937829448005465819}
+  kitchenObjectSO: {fileID: 11400000, guid: 7149638fe1710454a99574e6fcdee380, type: 2}
 --- !u!4 &7625303959676350290 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 236598950779791739, guid: 68062c6d34e65864fbb9614eb3163b42, type: 3}
@@ -293,6 +283,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b4ffc19caf9110646bf5a0de34226ec2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::SelectedCounterVisual
-  baseCounter: {fileID: 6657870811800473772}
+  baseCounter: {fileID: 9144864882708795233}
   visualGameObjectArray:
   - {fileID: 876144190082268050}

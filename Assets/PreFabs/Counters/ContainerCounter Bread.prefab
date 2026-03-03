@@ -1,6 +1,6 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
---- !u!1001 &8260977144903552409
+--- !u!1001 &1638767142266231646
 PrefabInstance:
   m_ObjectHideFlags: 0
   serializedVersion: 2
@@ -48,15 +48,20 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 2870346938869856758, guid: 68062c6d34e65864fbb9614eb3163b42, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: 77b28124b8bda494381c80bd5aa42c22, type: 3}
+    - target: {fileID: 3963051997784561285, guid: 68062c6d34e65864fbb9614eb3163b42, type: 3}
+      propertyPath: kitchenObjectSO
+      value: 
+      objectReference: {fileID: 11400000, guid: 4bad12686b91a584690a46701320a8d5, type: 2}
     - target: {fileID: 3967137926361914847, guid: 68062c6d34e65864fbb9614eb3163b42, type: 3}
       propertyPath: m_Name
-      value: _BaseCounter Variant
+      value: ContainerCounter Bread
       objectReference: {fileID: 0}
-    m_RemovedComponents:
-    - {fileID: 3963051997784561285, guid: 68062c6d34e65864fbb9614eb3163b42, type: 3}
-    m_RemovedGameObjects:
-    - {fileID: 6195953978875309064, guid: 68062c6d34e65864fbb9614eb3163b42, type: 3}
-    - {fileID: 6578569007076533719, guid: 68062c6d34e65864fbb9614eb3163b42, type: 3}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 68062c6d34e65864fbb9614eb3163b42, type: 3}
